@@ -6,12 +6,10 @@ def setup():
     import platform # for system detection
     if (str(platform.system())=='Windows'):
         print("Windows System Detected")
-        from numpy import matrix # matrix object
         if((input("Clear screen? y/n : "))=='y'):
             os.system('cls')
     if (str(platform.system())=='Linux'):
-        print("Android System Detected")
-        import sl4a # standard library for android
+        print("Linux System Detected")
         if((input("Clear screen? y/n : "))=='y'):
             os.system('clear')
     return
