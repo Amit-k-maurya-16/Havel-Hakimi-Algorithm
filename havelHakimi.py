@@ -9,7 +9,7 @@ def setup():
         if((input("Clear screen? y/n : "))=='y'):
             os.system('cls')
     if (str(platform.system())=='Linux'):
-        print("Linux System Detected")
+        print("Android System Detected")
         if((input("Clear screen? y/n : "))=='y'):
             os.system('clear')
     return
@@ -19,12 +19,10 @@ setup()
 #docstring function
 def doc():
     print("""
-
 ** The Havel-Hakimi Algorithm **
  
          v. 3/15/17
        Mason  Hoffman
-
 
 Reduces a degree sequence using the Havel-Hakimi algorithm.
 
