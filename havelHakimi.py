@@ -1,5 +1,7 @@
 import os
 
+#Setup for system detection
+#For clearing console and importing libraries specific to OS
 def setup():
     import platform # for system detection
     if (str(platform.system())=='Windows'):
